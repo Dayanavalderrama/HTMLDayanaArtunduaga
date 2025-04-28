@@ -1,0 +1,111 @@
+/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilos del encabezado y animación */
+header {
+    background-color: #5c8527;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    animation: mover 4s ease-in-out infinite; /* Aplica animación de movimiento */
+}
+
+/* Definición de la animación de movimiento */
+@keyframes mover {
+    0% { left: 0px; }
+    50% { left: 10px; }
+    100% { left: 0px; }
+}
+
+/* Estilo para el logo */
+.logo {
+    width: 300px;
+    height: auto;
+}
+
+/* Navegación horizontal centrada */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Enlaces de navegación */
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav a:hover {
+    background-color: #3c6382; /* Efecto hover */
+    border-radius: 10px;
+}
+
+/* Secciones principales */
+.seccion {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgb(238, 255, 245);
+    margin-bottom: 20px;
+}
+
+/* Imagen principal de bienvenida */
+.portada {
+    width: 75%;
+    max-height: 380px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Estilo para cada bloque de programa deportivo */
+.programa {
+    margin-bottom: 20px;
+    border-left: 5px solid #8faabd;
+    padding-left: 10px;
+}
+
+/* Estilos del formulario de contacto */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1em;
+}
+
+/* Botón del formulario */
+button {
+    background-color: #00c3ff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #bcdbb9;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #bcdbb9;
+    color: white;
+}
+
